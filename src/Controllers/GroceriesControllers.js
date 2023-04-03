@@ -40,7 +40,7 @@ const groceriesController = {
   getGroceries: async (req, res) => {
     try {
       const id = req.params.id;
-      Groceries.findById(id);
+      const groceries = Groceries.findById(id);
       //   .populate("recipe", "name")
       res.json(groceries);
     } catch (err) {
