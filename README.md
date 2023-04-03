@@ -20,6 +20,17 @@
 
 Platefuls is a RESTful API made with the goal of interacting with a variety of recipes. The goal of this databse is to provied Recipe information to allow recipes to create an application revolving around this theme.
 
+### Example endpoints:
+-------
+
+[Get All Recipes](https://recipe.cleverapps.io/recipes)
+
+[Get Recipe by Name](https://recipe.cleverapps.io/recipes/name/Cauliflower%20Gnocchi)
+
+[Get Recipe by Id](https://recipe.cleverapps.io/recipes/6428ea2d3deecbcde79edbf5)
+
+[Get All Groceries](https://recipe.cleverapps.io/groceries/)
+
 ## The Models
 
 There are two models: Recipes and Groceries.
@@ -27,7 +38,7 @@ There are two models: Recipes and Groceries.
 Below are the two models with example outputs. The routes for each model will be laid out as well.
 
 ## The Recipes
-------
+
 
 #### MODEL
 --------
@@ -98,7 +109,7 @@ Example Output:
 },
 ```
 
-----
+
 #### Recipes Routes and Methods
 ----
 
@@ -112,10 +123,8 @@ Example Output:
 |PUT |update recipe by Id | "...```/recipes/<Id Here>```"|
 |DELETE |delete recipe by Id | "...```/recipes/<Id Here>```"|
 
-
 ## Groceries Model
 
-----
 #### The Model
 ____
 
@@ -145,6 +154,7 @@ Example Output:
 ```
 
 #### Groceries Routes and Methods
+----
 
 |Method|Requests|Paths|
 |----|-----|-----------|
